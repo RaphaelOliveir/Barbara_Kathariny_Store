@@ -95,6 +95,49 @@ section.banners-promocionais-estaticos {
       section.banners-promocionais-estaticos .banners-promocionais-estaticos-todo-br p strong {
         font-weight: bold; }
 
+section.produtos {
+  margin: 30px 120px; }
+  section.produtos .produtos-container {
+    margin: 30px 0; }
+    section.produtos .produtos-container .produtos-itens {
+      color: #343A40; }
+      section.produtos .produtos-container .produtos-itens h2 {
+        font-size: 19px;
+        margin: 10px 0; }
+      section.produtos .produtos-container .produtos-itens .produtos-stars {
+        font-size: 12px; }
+        section.produtos .produtos-container .produtos-itens .produtos-stars svg {
+          fill: #FFC107; }
+      section.produtos .produtos-container .produtos-itens .produtos-preco {
+        font-size: 16px; }
+  section.produtos button {
+    background: #EBC9D9;
+    border-color: #EBC9D9;
+    color: #FFF;
+    font-weight: bold; }
+    section.produtos button:hover {
+      background: #FFF;
+      border-color: #FFF;
+      color: #EBC9D9;
+      font-weight: bold; }
+
+footer {
+  background: #343A40;
+  padding: 25px 0;
+  color: #FFF; }
+  footer h4 {
+    color: #EBC9D9;
+    font-size: 19px; }
+  footer a {
+    color: #FFF; }
+    footer a:hover {
+      color: #FFF; }
+  footer ul li.ellipsis {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -8325,11 +8368,17 @@ a.text-dark:focus, a.text-dark:hover {
 /*# sourceMappingURL=bootstrap.min.css.map */
 /* * {
     border: 1px solid red;
-}*/
+} */
 body {
   color: #343A40; }
 
 a {
   text-decoration: none !important; }
+
+h1 {
+  font-size: 26px; }
+
+h1, h2, h3, h4, h5 {
+  font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */
